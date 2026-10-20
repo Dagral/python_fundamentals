@@ -1,6 +1,7 @@
-whole = int(input())
-dec = float(input())
+code = input()
+amount = int(input())
 
-print(whole + dec)
-print(int(whole + dec))
-print(f"{whole} + {dec} = {whole + dec}")
+print(code == 'GOLD')
+print('X' in code)
+print(amount >= 50 and amount <= 200)
+print(code == 'GOLD' or not amount >= 50 and amount <= 200)
