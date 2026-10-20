@@ -1,5 +1,6 @@
-width = int(input())
-height = int(input())
+whole = int(input())
+dec = float(input())
 
-print(width * height)
-print((width + height) * 2)
+print(whole + dec)
+print(int(whole + dec))
+print(f"{whole} + {dec} = {whole + dec}")
